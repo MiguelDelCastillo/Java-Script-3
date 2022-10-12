@@ -39,20 +39,29 @@ while(b<cantidad){
     
 }
 
-let horaInicial =23;
-let frecuencia = 6;
+let horaInicial =22;
+let frecuencia = 5;
 p=1;
 
-if(horaInicial ==23){
+/* if(horaInicial ==23){
     console.log(`Dosis ${p} tomar a las ${horaInicial}`)
     p++;
     horaInicial = frecuencia-1;
+} */
+
+let cantidadDosis = 0;
+cantidadDosis = Math.floor(24/frecuencia);
+
+for(a = 0;a<cantidadDosis;a++){
+    if(horaInicial>23){
+        horaInicial = horaInicial-24
+    }
+    console.log(`Su dosis ${a}: ${horaInicial}`)
+    horaInicial = horaInicial+frecuencia
 }
 
-while(horaInicial < 24){
+/* while(horaInicial < 24){
     console.log(`Dosis ${p} tomar a las ${horaInicial}`)    
     p++;
     horaInicial=horaInicial+frecuencia;
-}
-
-console.log(numeronuevo)
+} */
