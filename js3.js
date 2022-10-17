@@ -39,8 +39,8 @@ while(b<cantidad){
     
 }
 
-let horaInicial =22;
-let frecuencia = 5;
+let horaInicial =1;
+let frecuencia = 12;
 p=1;
 
 /* if(horaInicial ==23){
@@ -52,7 +52,7 @@ p=1;
 let cantidadDosis = 0;
 cantidadDosis = Math.floor(24/frecuencia);
 
-for(a = 0;a<cantidadDosis;a++){
+for(a = 1;a<=cantidadDosis;a++){
     if(horaInicial>23){
         horaInicial = horaInicial-24
     }
