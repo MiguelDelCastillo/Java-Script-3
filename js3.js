@@ -49,13 +49,9 @@ while(b<cantidad){
     
 }
 
-<<<<<<< HEAD
 let horaInicial =1;
 let frecuencia = 12;
 p=1;
-=======
-/* Programa Dosis */
->>>>>>> e5031421fd7fccda83e7fd47a43aa2963da3652c
 
 /* if(horaInicial ==23){
     console.log(`Dosis ${p} tomar a las ${horaInicial}`)
@@ -63,7 +59,6 @@ p=1;
     horaInicial = frecuencia-1;
 } */
 
-<<<<<<< HEAD
 let cantidadDosis = 0;
 cantidadDosis = Math.floor(24/frecuencia);
 
@@ -74,9 +69,6 @@ for(a = 1;a<=cantidadDosis;a++){
     console.log(`Su dosis ${a}: ${horaInicial}`)
     horaInicial = horaInicial+frecuencia
 }
-=======
-/* p=1; */
->>>>>>> e5031421fd7fccda83e7fd47a43aa2963da3652c
 
 /* while(horaInicial < 24){
     console.log(`Dosis ${p} tomar a las ${horaInicial}`)    

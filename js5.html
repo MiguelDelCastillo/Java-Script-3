@@ -7,8 +7,50 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="">
-        
+    <script src="js5.js">
+    
     </script>
+    
+    <h1>Calculadora</h1>
+    
+    <div>
+        <label for="num1">Numero 1</label><input type="text" name="" id="num1">
+    </div>
+    <div>
+        <label for="num2">Numero 2</label><input type="text" name="" id="num2">
+    </div>
+    <div>
+        <label for="operacion">Operacion</label><input type="text" name="" id="operacion">
+    </div>
+    <div>
+        <label for="resultado">Resultado</label><input type="text" name="" id="resultado">
+    </div>
+    <button id="boton" onclick="calcular()">Calcular</button>
+
+    <hr>
+
+    <h2>Programa imagenes</h2>
+
+    <div><label for="imagenACambiar">
+    Numero imagen:
+    </label><input type="text" name="" id="imagenACambiar"></div>
+    <img id = "a" src="/recursos/josuke.jpg" alt="" height="300hr" width="400hr">
+    <div>
+        <button onclick="imagen()"> Cambiar Imagen!</button>
+    </div>
+
+    <hr>
+
+    <h2>Programa tabla</h2>
+    <div>
+        <label for=""> Numero a sacar la tabla
+            <input type="text" name="" id="tabla">
+        </label>
+    </div>
+    <p id="tabla2"></p>
+    <div>
+        <button onclick="tablaMultiplicar()">Imprimir tabla</button>
+    </div>
+    <hr>
 </body>
 </html>
