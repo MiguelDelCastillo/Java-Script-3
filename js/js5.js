@@ -20,16 +20,16 @@ function imagen(){
     imagen2 = parseInt(document.getElementById("imagenACambiar").value);
     img = document.getElementById("a").src="asdasd";
     if(imagen2 == 1){
-        img = document.getElementById("a").src="/recursos/jotaro.png";
+        img = document.getElementById("a").src="/js/recursos/jotaro.png";
         console.log(img)
     }else if(imagen2 == 2){
-        img = document.getElementById("a").src="/recursos/giorno.jpg";
+        img = document.getElementById("a").src="/js/recursos/giorno.jpg";
     }else if(imagen2 == 3){
-        img = document.getElementById("a").src="/recursos/jolyne.jpg";
+        img = document.getElementById("a").src="/js/recursos/jolyne.jpg";
     }else if(imagen2 == 4){
-        img = document.getElementById("a").src="/recursos/joseph.jpg";
+        img = document.getElementById("a").src="/js/recursos/joseph.jpg";
     }else if(imagen2 == 5){
-        img = document.getElementById("a").src="/recursos/stroheim.png";
+        img = document.getElementById("a").src="/js/recursos/stroheim.png";
     }
 
 }
