@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    display: grid;
+    grid-template-areas: "head head"
+                        "calcu pTabla"
+                        "pImg pImg";
+    
+}
+
+/* Areas de grid */
+
+header{
+    grid-area: head;
+}
+
+#calcu{grid-area: calcu;}
+
+#programaImg{grid-area: pImg;}
+
+#programaTabla{grid-area: pTabla;}
+
+article{
+    background-color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2{
+    background-color:darkblue;
+    color: azure;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label{
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+}
+input{
+    height: 4vh;
+    width: 6vh;
+    font-size: large;
+    border: none;
+    border-bottom: 1vh solid black;
+    border-radius: 2vh;
+    text-align: center;
+    font-weight: bold;
+}

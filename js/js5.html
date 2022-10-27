@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/js5.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,49 +12,62 @@
     
     </script>
     
-    <h1>Calculadora</h1>
-    
-    <div>
-        <label for="num1">Numero 1</label><input type="text" name="" id="num1">
-    </div>
-    <div>
-        <label for="num2">Numero 2</label><input type="text" name="" id="num2">
-    </div>
-    <div>
-        <label for="operacion">Operacion</label><input type="text" name="" id="operacion">
-    </div>
-    <div>
-        <label for="resultado">Resultado</label><input type="text" name="" id="resultado">
-    </div>
-    <button id="boton" onclick="calcular()">Calcular</button>
-
+    <header><h1>Programas con Java Script</h1></header>
     <hr>
 
-    <h2>Programa imagenes</h2>
-    <H2>(1-5)</H2>
-    <div>
-        <label for="imagenACambiar">
-            Numero imagen:
-        </label>
-        <input type="number" name="" id="imagenACambiar" >
+    <div id = "calcu">
+        <article>
+            <h2>Calculadora</h2>
         
-    </div>
-    <img id = "a" src="https://w0.peakpx.com/wallpaper/621/353/HD-wallpaper-josuke-higashikata-adventure-jojos-jojo-jjba-bizzarre-diamond-is-unbreakable.jpg" alt="" height="400hr" width="300hr">
-    <div>
-        <button onclick="imagen()"> Cambiar Imagen!</button>
+            <div>
+                <label for="num1">Numero 1</label><br><input type="text" name="" id="num1">
+            </div>
+            <div>
+                <label for="num2">Numero 2</label><br><input type="text" name="" id="num2">
+            </div>
+            <div>
+                <label for="operacion">Operacion</label><br><input type="text" name="" id="operacion">
+            </div>
+            <div>
+                <label for="resultado">Resultado</label><br><input type="text" name="" id="resultado">
+            </div>
+            <button id="boton" onclick="calcular()">Calcular</button>
+        </article>
     </div>
 
     <hr>
 
-    <h2>Programa tabla</h2>
-    <div>
-        <label for=""> Numero a sacar la tabla
-            <input type="text" name="" id="tabla">
-        </label>
+    <div id = "programaImg">
+        <article>
+            <h2>Programa imagenes <br> (1-5)</h2>
+            <div>
+                <label for="imagenACambiar">
+                    Numero imagen:
+                </label><br>
+                <input type="number" name="" id="imagenACambiar" >
+        
+            </div>
+            <img id = "a" src="https://w0.peakpx.com/wallpaper/621/353/HD-wallpaper-josuke-higashikata-adventure-jojos-jojo-jjba-bizzarre-diamond-is-unbreakable.jpg" alt="" height="400hr" width="300hr">
+            <div>
+                <button onclick="imagen()"> Cambiar Imagen!</button>
+            </div>
+        </article>
     </div>
-    <p id="tabla2"></p>
-    <div>
-        <button onclick="tablaMultiplicar()">Imprimir tabla</button>
+
+    <hr>
+
+    <div id="programaTabla">
+        <article>
+            <h2>Programa tabla</h2>
+            <div>
+                <label for=""> Numero a sacar la tabla
+        
+                </label><br><input type="text" name="" id="tabla">
+            <p id="tabla2"></p>
+        
+                <button onclick="tablaMultiplicar()">Imprimir tabla</button>
+            </div>
+        </article>
     </div>
     <hr>
 </body>
