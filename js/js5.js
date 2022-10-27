@@ -20,16 +20,16 @@ function imagen(){
     imagen2 = parseInt(document.getElementById("imagenACambiar").value);
     img = document.getElementById("a").src="asdasd";
     if(imagen2 == 1){
-        img = document.getElementById("a").src="/js/recursos/jotaro.png";
+        img = document.getElementById("a").src="https://static.jojowiki.com/images/6/69/latest/20201130220440/Jotaro_SC_Infobox_Manga.png";
         console.log(img)
     }else if(imagen2 == 2){
-        img = document.getElementById("a").src="/js/recursos/giorno.jpg";
+        img = document.getElementById("a").src="https://static.jojowiki.com/images/thumb/4/4a/latest/20210422070411/Giorno_Giovanna_Infobox_Anime.png/400px-Giorno_Giovanna_Infobox_Anime.png";
     }else if(imagen2 == 3){
-        img = document.getElementById("a").src="/js/recursos/jolyne.jpg";
+        img = document.getElementById("a").src="https://static.jojowiki.com/images/thumb/2/20/latest/20200923041552/Jolyne_Infobox_Manga.png/400px-Jolyne_Infobox_Manga.png";
     }else if(imagen2 == 4){
-        img = document.getElementById("a").src="/js/recursos/joseph.jpg";
+        img = document.getElementById("a").src="https://gamebanana.com/mods/embeddables/393858?variant=sd_image";
     }else if(imagen2 == 5){
-        img = document.getElementById("a").src="/js/recursos/stroheim.png";
+        img = document.getElementById("a").src="https://external-preview.redd.it/SfLeRKoLZ9W9WynNaOQeOili8KyGk2RKsXEou0I2pHA.jpg?auto=webp&s=9b773964ee5aefbb35a5688cb31d7bcf246eed8f";
     }
 
 }
